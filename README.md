@@ -10,5 +10,6 @@ sudo pip install lxml
 sudo pip install jupyter
 sudo pip install matplotlib
 ```
+
 ##set PYTHONPATH
-export PYTHONPATH=xxx/workshop:xxx/workshop/slim:$PYTHONPATH
+```export PYTHONPATH=xxx/workshop:xxx/workshop/slim:$PYTHONPATH```
