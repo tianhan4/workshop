@@ -1,5 +1,5 @@
 # workshop
-installation
+## installation
 ```
 pip install tensorflow
 # For GPU
@@ -10,3 +10,6 @@ sudo pip install lxml
 sudo pip install jupyter
 sudo pip install matplotlib
 ```
+
+## Set PYTHONPATH
+```export PYTHONPATH=xxx/workshop:xxx/workshop/slim:$PYTHONPATH```
