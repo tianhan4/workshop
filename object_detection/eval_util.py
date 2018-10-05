@@ -245,6 +245,7 @@ def _run_checkpoint_once(tensor_dict,
     raise ValueError('`save_graph_dir` must be defined.')
   config = tf.ConfigProto()
   config.gpu_options.allow_growth = True
+  config.gpu_options.per_process_gpu_memory_fraction = 0.4
   sess = tf.Session(master, graph=tf.get_default_graph(),config=config)
   sess.run(tf.global_variables_initializer())
   sess.run(tf.local_variables_initializer())
