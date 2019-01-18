@@ -18,5 +18,5 @@ sudo pip install matplotlib
 Name | URL | Path
 :------:|:---------------:|:---------------------:
 data | [url](http://www.robots.ox.ac.uk/~vgg/data/pets/) | data/annotations; data/images
-pre-trained model | [url](http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz) | models/faster_rcnn_inception_v2_coco_2018_01_28
+pre-trained model | [url](http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz) | models/pretrained_model
 well-trained mode | [url](https://pan.baidu.com/s/1B1fQsj9RycMMBfcK6p_j7g) | models/frozen_trained_inference_graph
